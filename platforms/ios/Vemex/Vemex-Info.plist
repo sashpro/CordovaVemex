@@ -49,6 +49,15 @@
     <true/>
     <key>NSAppTransportSecurity</key>
     <dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>vemex.net</key>
+        <dict/>
+        <key>advcash.com</key>
+        <dict/>
+        <key>google.com</key>
+        <dict/>
+      </dict>
       <key>NSAllowsArbitraryLoads</key>
       <true/>
     </dict>

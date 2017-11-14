@@ -11,6 +11,7 @@
     <author email="support@vemex.net" href="http://vemex.net">
         Vemex Team
     </author>
+    <icon src="Vemex_logo.png" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
