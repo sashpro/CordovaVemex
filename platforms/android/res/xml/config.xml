@@ -6,10 +6,10 @@
     </feature>
     <name>Vemex</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Crypto currency exchange
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="support@vemex.net" href="http://vemex.net">
+        Vemex Team
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -19,6 +19,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="https://vemex.net/*" />
+    <allow-navigation href="https://advcash.com/*" />
+    <allow-navigation href="https://google.com/*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine" />
