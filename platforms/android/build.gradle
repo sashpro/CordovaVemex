@@ -257,6 +257,12 @@ android {
         }
     }
     productFlavors {
+        armv7 {
+            minSdkVersion 19
+            signingConfig signingConfigs.config
+            targetSdkVersion 21
+            versionCode 1002
+        }
     }
 }
 
